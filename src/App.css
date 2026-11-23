@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif !important;
+}
+
+body {
+  width: 350px;
+  min-height: 200px;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+#root {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.extension-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #1a1a1a;
+  text-align: left;
+}
+
+button {
+  background-color: #222;
+  color: white;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.9em;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #444;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button[title="Abrir em nova aba para evitar erros"] {
+  background-color: #666;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+}
+
+button[title="Abrir em nova aba para evitar erros"]:hover {
+  background-color: #007bff;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+p {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 5px 0 15px 0;
+}
+
+.loading {
+  color: #007bff;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

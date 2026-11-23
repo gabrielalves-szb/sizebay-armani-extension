@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Sizebay/Armani CSV Processor",
+  "version": "1.0",
+  "description": "Sizebay/Armani CSV Processor",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Abrir Processador",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["downloads"]
+}

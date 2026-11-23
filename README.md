@@ -122,5 +122,3 @@ sizebay-armani-extension/
 | `downloads` | Salvar o CSV convertido |
 
 Nenhuma permissão de acesso a sites, aba ativa ou dados de navegação. A extensão não lê nem envia nada além do arquivo que você escolhe.
-
----
